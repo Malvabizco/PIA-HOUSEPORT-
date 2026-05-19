@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Palette (Premium, Deep dark, rich colors) -->
+    <color name="md_theme_light_primary">#82B1FF</color> <!-- Glowing secondary brand in dark mode -->
+    <color name="md_theme_light_onPrimary">#001945</color>
+    <color name="md_theme_light_primaryContainer">#00308F</color>
+    <color name="md_theme_light_onPrimaryContainer">#D9E2FF</color>
+
+    <color name="md_theme_light_secondary">#585E71</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+
+    <color name="md_theme_light_error">#FF8A80</color>
+    <color name="md_theme_light_onError">#3F0000</color>
+
+    <color name="md_theme_light_background">#0F1015</color>
+    <color name="md_theme_light_onBackground">#F0F0F5</color>
+
+    <color name="md_theme_light_surface">#1A1C29</color>
+    <color name="md_theme_light_onSurface">#F0F0F5</color>
+    <color name="md_theme_light_surfaceVariant">#2E303F</color>
+    <color name="md_theme_light_onSurfaceVariant">#90909A</color>
+
+    <color name="md_theme_light_outline">#3E4154</color>
+
+    <!-- Aliases for Dark Theme -->
+    <color name="primary_brand">#82B1FF</color>
+    <color name="white">#1E1E2C</color> <!-- Safe fallback to prevent blinding cards -->
+    <color name="input_background">#1E1E2C</color>
+    <color name="input_stroke">#3E4154</color>
+    <color name="input_stroke_focused">#82B1FF</color>
+
+    <!-- Semantic Theme Colors -->
+    <color name="app_background">#0F1015</color> <!-- Rich deep slate-black -->
+    <color name="card_background">#1A1C29</color> <!-- Dark premium card surface -->
+    <color name="text_primary">#F0F0F5</color> <!-- Highly readable light silver -->
+    <color name="text_secondary">#9E9EB2</color> <!-- Soft grey -->
+    <color name="divider_color">#2D3044</color> <!-- Premium subtle border -->
+
+    <!-- Dashboard Pastel Cards (Dark Theme - Deep dark glowing bg, neon tinted text) -->
+    <color name="pastel_blue_bg">#121C2B</color>
+    <color name="pastel_blue_txt">#82B1FF</color>
+
+    <color name="pastel_green_bg">#0F2414</color>
+    <color name="pastel_green_txt">#81C784</color>
+
+    <color name="pastel_orange_bg">#2C1A0E</color>
+    <color name="pastel_orange_txt">#FFB74D</color>
+
+    <color name="pastel_red_bg">#2D1318</color>
+    <color name="pastel_red_txt">#E57373</color>
+
+    <color name="pastel_teal_bg">#072426</color>
+    <color name="pastel_teal_txt">#4DB6AC</color>
+
+    <color name="pastel_purple_bg">#20122D</color>
+    <color name="pastel_purple_txt">#BA68C8</color>
+
+    <color name="pastel_brown_bg">#1A1513</color>
+    <color name="pastel_brown_txt">#D7CCC8</color>
+
+    <color name="pastel_lime_bg">#1D220E</color>
+    <color name="pastel_lime_txt">#D4E157</color>
+</resources>

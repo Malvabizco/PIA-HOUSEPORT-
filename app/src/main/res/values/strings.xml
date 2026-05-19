@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HousePort</string>
+    <string name="login_welcome_back">¡Bienvenido de nuevo!</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+
+    <string name="title_house">House</string>
+    <string name="title_port">Port</string>
+    <string name="full_app_name">HousePort</string>
+
+    <string name="label_email">Correo electrónico</string>
+    <string name="hint_email">nombre@ejemplo.com</string>
+
+    <string name="label_password">Contraseña</string>
+    <string name="hint_password">Tu contraseña</string>
+
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+
+    <string name="no_account">¿No tienes una cuenta? </string>
+    <string name="register_here">Regístrate gratis</string>
+
+    <string name="filter_all">Todos</string>
+    <string name="filter_paid">Pagados</string>
+    <string name="filter_pending">Pendientes</string>
+    <string name="request_service">Solicitar Servicio</string>
+</resources>

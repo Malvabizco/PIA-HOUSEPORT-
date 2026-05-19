@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Botón Superior Pagos -->
+    <Button
+        android:id="@+id/btnPagosHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagos"
+        android:textColor="@color/white"
+        android:backgroundTint="#00B14F"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:layout_marginBottom="24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Tarjeta de referencia -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tarjeta de referencia"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etTarjetaReferencia"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_border"
+                android:padding="10dp"
+                android:inputType="text"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Por pagar -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Por pagar:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etPorPagar"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_border"
+                android:padding="10dp"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Monto -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etMonto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_border"
+                android:padding="10dp"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Descripción -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripción"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/edittext_border"
+                android:padding="12dp"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:layout_marginBottom="32dp" />
+
+            <!-- Botón Enviar -->
+            <Button
+                android:id="@+id/btnEnviarPago"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Enviar"
+                android:textColor="@color/white"
+                android:backgroundTint="#5B9BD5"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

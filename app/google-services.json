@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "335431960676",
+    "project_id": "pia-claseordinaria",
+    "storage_bucket": "pia-claseordinaria.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335431960676:android:49252c37114a2591b9f771",
+        "android_client_info": {
+          "package_name": "com.example.pia_claseordinaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335431960676-quci0e6vhu1uvk4jro9c7iog22o0u5cq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBip68_G6-65RrQhzcYWzUk9SzmU7-u1nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335431960676-quci0e6vhu1uvk4jro9c7iog22o0u5cq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

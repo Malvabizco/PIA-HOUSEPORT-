@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_theme_light_background"
+    android:fitsSystemWindows="true"
+    android:padding="20dp">
+
+    <!-- Barra Superior Estandarizada -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_arrow_back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/md_theme_light_onBackground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encuestas Oficiales"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/buttonBack"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/md_theme_light_primary" />
+    </RelativeLayout>
+
+    <!-- Campo para Encuestas -->
+    <FrameLayout
+        android:id="@+id/surveysContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/textViewNoSurveys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="No hay encuestas pendientes"
+            android:textColor="@color/md_theme_light_outline"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewSurveys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <!-- Botón Marcar como leído -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMarkAsRead"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Marcar como leídas"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="12dp" />
+
+    <!-- Cuadro Informativo Inferior -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/md_theme_light_primaryContainer"
+        app:strokeWidth="0dp"
+        app:cardElevation="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aquí aparecerán las encuestas oficiales que envíe la administración para conocer sus valiosas opiniones y propuestas."
+            android:textColor="@color/md_theme_light_onPrimaryContainer"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="16dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
